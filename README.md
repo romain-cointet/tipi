@@ -19,6 +19,8 @@ Ci dessous, l'exemple d'une page de ville à intégrer:
 
 Intégrer la page en HTML et CSS brut en respectant le design de la maquette Invision. Vous pouvez vous aider de la grille CSS créée dans _style.css_, ligne 44 à 102 et des autres éléments du fichier. Un exemple de la grille est contenu dans le fichier _test.html_.
 
+Pour les images, utiliser des images random avec unsplash. Exemple: https://source.unsplash.com/random/32x32.
+
 ## 3 Ajout du Javascript
 
 Dynamiser la page en utilisant les données de chaque ville contenu dans leur fichiers javascript respectifs.
