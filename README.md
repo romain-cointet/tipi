@@ -11,6 +11,6 @@ Ci dessous, l'exemple d'une page de ville à intégrer:
 
 ## 1 Création de la page
 
-Créer une page HTML au nom de la ville à la racine du projet, exemple: paris.html.
-Créer et lier le fichier un fichier CSS au nom de la ville dans le dossier _css_, exemple: css/paris.css.
-Lier le fichier javascript correspondant.
+1. Créer une page HTML au nom de la ville à la racine du projet, exemple: paris.html.
+2. Créer et lier le fichier un fichier CSS au nom de la ville dans le dossier _css_, exemple: css/paris.css.
+3. Lier le fichier javascript correspondant.
