@@ -5,7 +5,7 @@ const allCities = [
   {
     name: 'Paris',
     img: 'paris.png',
-    url: '/paris',
+    url: '/paris.html',
     jobs: 86,
     students: 8000,
     colocations: 364
@@ -13,7 +13,7 @@ const allCities = [
   {
     name: 'London',
     img: 'london.png',
-    url: '/london',
+    url: '/london.html',
     jobs: 103,
     students: 12000,
     colocations: 162
@@ -21,7 +21,7 @@ const allCities = [
   {
     name: 'Madrid',
     img: 'madrid.png',
-    url: '/madrid',
+    url: '/madrid.html',
     jobs: 69,
     students: 6900,
     colocations: 372
@@ -29,7 +29,7 @@ const allCities = [
   {
     name: 'Barcelona',
     img: 'barcelona.png',
-    url: '/barcelona',
+    url: '/barcelona.html',
     jobs: 132,
     students: 4200,
     colocations: 387
@@ -37,7 +37,7 @@ const allCities = [
   {
     name: 'Lisboa',
     img: 'lisboa.png',
-    url: '/lisboa',
+    url: '/lisboa.html',
     jobs: 99,
     students: 5100,
     colocations: 152
@@ -45,7 +45,7 @@ const allCities = [
   {
     name: 'Berlin',
     img: 'berlin.png',
-    url: '/berlin',
+    url: '/berlin.html',
     jobs: 164,
     students: 8300,
     colocations: 233
@@ -53,7 +53,7 @@ const allCities = [
   {
     name: 'Rome',
     img: 'rome.png',
-    url: '/rome',
+    url: '/rome.html',
     jobs: 32,
     students: 1276,
     colocations: 62
@@ -61,7 +61,7 @@ const allCities = [
   {
     name: 'Venise',
     img: 'venice.png',
-    url: '/venise',
+    url: '/venise.html',
     jobs: 19,
     students: 853,
     colocations: 21

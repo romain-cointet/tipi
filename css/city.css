@@ -1,0 +1,14 @@
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.user .avatar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+.user .user-name {
+  padding-left: 8px;
+  padding-top: 4px;
+}

@@ -87,12 +87,13 @@ for(let i = 0; i < visits.length; i++) {
 
       const index = user.visits.indexOf(value);
       if (index > -1) {
-        user.visits.slice(index, 1);
+        user.visits.splice(index, 1);
       }
     } else {
       event.currentTarget.classList.add('visit-selected');
       user.visits.push(value)
     }
+    console.log(user.visits)
   })
 }
 

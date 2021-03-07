@@ -231,7 +231,7 @@ button,
 }
 
 .hero {
-  background: #fff3df url(img/hero3.png) no-repeat center right 10%;
+  background: #fff3df url(../img/hero3.png) no-repeat center right 10%;
   background-size: 40%;
   min-height: 90vh;
   padding-top: 115px;
@@ -498,7 +498,7 @@ button,
   left: 12px;
   width: 12px;
   height: 8px;
-  background: url(img/icon-checked.svg) no-repeat top left;
+  background: url(../img/icon-checked.svg) no-repeat top left;
 }
 #spots .visit.visit-selected h4 {
   color: #fff;
