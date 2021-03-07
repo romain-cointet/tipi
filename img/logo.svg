@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="31px" viewBox="0 0 74 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-92.000000, -25.000000)" fill="#FF4D3E">
+            <g id="Group-5" transform="translate(92.000000, 25.000000)">
+                <text id="tipi" font-family="CabernetJF-Regular, Cabernet JF" font-size="28" font-weight="800">
+                    <tspan x="31" y="25">tipi</tspan>
+                </text>
+                <g id="001-tipi" fill-rule="nonzero">
+                    <path d="M23.6962402,23.5351562 L13.3736816,7.07392578 L17.0354004,1.2184082 L15.7934082,0.441748047 L13.2202148,4.55654297 L13.2202148,0 L11.7553711,0 L11.7553711,4.49326172 L9.21425781,0.440966797 L7.97324219,1.21918945 L11.6453125,7.075 L1.35200195,23.5351562 L0,23.5351562 L0,25 L25,25 L25,23.5351562 L23.6962402,23.5351562 Z M3.07963867,23.5351562 L12.5103516,8.45444336 L15.0680176,12.5331055 L8.18793945,23.5351562 L3.07963867,23.5351562 Z M9.91557617,23.5351562 L12.5198242,19.3707031 L15.13125,23.5351562 L9.91557617,23.5351562 Z M16.8603027,23.5351562 L13.3831543,17.9901855 L15.9330566,13.9125488 L21.9672363,23.5351562 L16.8603027,23.5351562 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
