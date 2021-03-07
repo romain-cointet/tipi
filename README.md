@@ -24,3 +24,5 @@ Intégrer la page en HTML et CSS brut en respectant le design de la maquette Inv
 Dynamiser la page en utilisant les données de chaque ville contenu dans leur fichiers javascript respectifs.
 
 ### Force et honneur
+
+![May the Froce be with you](https://media4.giphy.com/media/zhPWlqR2CUQ6s/giphy.gif?cid=ecf05e477gvt6i9bf1wgkga3h94ehnkypp7f8h2a0fu0bfpe&rid=giphy.gif)
