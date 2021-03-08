@@ -1,0 +1,21 @@
+.my-s {
+  margin: 1.5rem 0;
+}
+
+header {
+  background: #fff3df url(../img/cities/rome-header.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+  padding-top: 30vh;
+}
+
+.city-name {
+  height: 55px;
+  width: 144px;
+  color: #FEFEFE;
+  font-family: "Playfair Display";
+  font-size: 58px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 55px;
+}
