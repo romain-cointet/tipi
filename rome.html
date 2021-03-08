@@ -32,8 +32,8 @@
     <div class="grid">
       <div class="grid-row">
         <div class="item">
-          <h4 class="city-name">Paris</h4>
-          <p class="text-white my-s">8000 étudiants, 86 jobs</p>
+          <h4 class="city-name">Rome</h4>
+          <p class="text-white my-s" id="resume"></p>
         </div>
       </div>
     </div>
@@ -42,18 +42,19 @@
   <!-- Corps de page -->
   <main class="">
 
-    <div class="grid list" id="jobs">
+    <div class="grid list" id="rome-students">
       <div class="row">
         <div class="col col-8">
-          <h3>8000 étudiants inscris</h3>
+          <h3></h3>
         </div>
         <div class="col col-4 text-right">
           <a href="#">Voir tous les étudiants</a>
         </div>
       </div>
-      <div class="row my-4">
 
-        <div class="col col-4">
+      <div class="row my-4" id="rome-students-wrapper">
+
+        <div class="col col-3">
           <div class="user">
             <span class="avatar">
               <img src="https://source.unsplash.com/random/32x32" alt="">
@@ -64,38 +65,27 @@
           </div>
         </div>
 
-        <div class="col col-2">
-          <div class="user">
-            <span class="avatar">
-              <img src="https://source.unsplash.com/random/32x32" alt="">
-            </span>
-            <h3 class="user-name">
-              Cecilia Pozo
-            </h3>
-          </div>
-        </div>
-
       </div>
     </div>
 
-    <div class="grid list" id="jobs">
+    <div class="grid list" id="rome-jobs">
 
       <div class="row">
         <div class="col col-8">
-          <h3>86 jobs étudiants dans la ville</h3>
+          <h3></h3>
         </div>
         <div class="col col-4 text-right">
           <a href="#">Voir tous les jobs</a>
         </div>
       </div>
 
-      <div class="row my-4">
+      <div class="row my-4" id="rome-jobs-wrapper">
 
-        <div class="col col-4 card card-secondary job-card">
+        <div class="col col-4 card card-secondary city-card">
           <div class="card-body">
             <p class="job-entitled mb-1">Livreur de pizzas à vélo</p>
             <div class="d-flex">
-              <p class="job-society col col-6">Pizza Gucci</p>
+              <p class="job-society col col-6 p-0">Pizza Gucci</p>
               <p class="job-salary col col-6">20€/h</p>
             </div>
           </div>
@@ -103,24 +93,26 @@
 
       </div>
 
-      <div class="grid list" id="locations">
+      <div class="grid list" id="rome-locations">
+
         <div class="row">
           <div class="col col-8">
-            <h3>30 lieux à visiter dans la ville</h3>
+            <h3></h3>
           </div>
           <div class="col col-4 text-right">
             <a href="#">Voir tous les lieux</a>
           </div>
         </div>
-        <div class="row">
-          <div class="col col-4 job-card">
+
+        <div class="row" id="rome-locations-wrapper">
+          <div class="col col-4 city-card">
             <div class="card-img-top mb-1">
               <img src="https://source.unsplash.com/random/400x130" alt="">
             </div>
             <div class="card-body">
               <p class="job-entitled mb-1">Tour Eiffel</p>
               <div class="d-flex">
-                <p class="job-society col col-6">1er arrondissement</p>
+                <p class="job-society col col-6 p-0">1er arrondissement</p>
                 <p class="job-salary col col-6">8€</p>
               </div>
             </div>
@@ -130,6 +122,7 @@
 
   </main>
 
+  <script type="text/javascript" src="./js/functions.js"></script>
   <script type="text/javascript" src="./js/cities/rome.js"></script>
 
 </body>

@@ -1,4 +1,3 @@
-
 /*
 function showJobs(jobs) {
   let jobWrapper = document.getElementById('jobs-wrapper');
@@ -54,10 +53,10 @@ function showItems(items, wrapper, type) {
     let item = document.createElement('div');
     item.classList.add('col', 'col-3');
 
-    let content = '<a href="#" class="item '+ type + '">';
+    let content = '<a href="#" class="item ' + type + '">';
 
-    if(wrapper === 'eating-wrapper') {
-      if(i === 0) {
+    if (wrapper === 'eating-wrapper') {
+      if (i === 0) {
         content += '<div class="top">Top of <br>the week!</div>';
       }
     }
@@ -74,14 +73,14 @@ function showItems(items, wrapper, type) {
 function showVisits(visits, visited) {
   let visitsWrapper = document.getElementById('visits-wrapper');
 
-  for(let i = 0; i < visits.length; i++) {
+  for (let i = 0; i < visits.length; i++) {
     let visit = document.createElement('div');
     visit.classList.add('card', 'card-secondary', 'visit');
 
     let intersection = visited.filter(x => visits.includes(x));
 
-    for(let j = 0; j < intersection.length; j++) {
-      if(visits[i] === intersection[j]) {
+    for (let j = 0; j < intersection.length; j++) {
+      if (visits[i] === intersection[j]) {
         visit.classList.add('visit-selected');
       }
     }
@@ -93,3 +92,49 @@ function showVisits(visits, visited) {
   }
 }
 
+
+function showElements(obj, id, divClass1, divClass2) {
+  let wrapper = document.getElementById(id);
+  for (const element in obj) {
+    var col = document.createElement('div');
+    col.classList.add(divClass1, divClass2);
+    switch (obj) {
+
+      case rome - students - wrapper:
+        var content = '<a href="#" class="item job">';
+        content += '<div class="picture"><img src="img/' + obj[element].image + '" alt="' + obj[element].name + '"></div>';
+        content += '<h5>' + obj[element].name + '</h5>';
+        content += '</a>';
+        break;
+
+      case rome - jobs - wrapper:
+        if (obj[element].rating == 1) {
+          var topOfTheWeek = '<div class="top"> Top of <br> the week! </div>';
+        } else {
+          var topOfTheWeek = '';
+        }
+        var content = '<a href="#" class="item plat">';
+        content += topOfTheWeek;
+        content += '<div class="picture"><img src="img/' + obj[element].image + '" alt="' + obj[element].name + '"></div>';
+        content += '<h5>' + obj[element].name + '</h5>';
+        content += '</a>';
+        break;
+
+      case rome - locations - wrapper:
+        for (var i = 0; i < user.visits.length; i++) {
+          col.classList.add('visit');
+          if (user.visits[i] == obj[element]) {
+            col.classList.add('visit-selected');
+          }
+        }
+        var content = '<h4>' + obj[element] + '</h4>';
+        break;
+      default:
+        var content = '<p>Aucun objet trouvé</p>';
+        console.log("Missing elements");
+    }
+
+    col.innerHTML = content;
+    wrapper.appendChild(col);
+  }
+}

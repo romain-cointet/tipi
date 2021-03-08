@@ -10,6 +10,10 @@
   margin-bottom: 1rem;
 }
 
+.p-0 {
+  padding: 0;
+}
+
 header {
   background: #fff3df url(../img/cities/rome-header.jpg) no-repeat center;
   background-size: cover;
@@ -19,6 +23,10 @@ header {
 
 .d-flex {
   display: flex;
+}
+
+.city-card {
+  height: 100px;
 }
 
 /* Cities */
@@ -51,10 +59,6 @@ header {
   font-family: Raleway;
   font-size: 16px;
   text-align: right;
-}
-
-.job-card {
-  height: 100px;
 }
 
 /* Locations */

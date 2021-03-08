@@ -166,3 +166,28 @@ let places = [{
 console.log("It's OK !");
 
 console.log(students.length);
+
+// Comptabiliser le nombre d'étudiants
+// Comptabiliser le nombre de job
+
+var resume = document.getElementById('resume');
+var students_wrapper = document.getElementById('rome-students');
+var jobs_wrapper = document.getElementById('rome-jobs');
+var locations_wrapper = document.getElementById('rome-locations');
+
+resume.textContent = students.length + ' étudiants, ' + jobs.length + ' jobs';
+students_wrapper.getElementsByTagName('h3')[0].textContent = students.length + ' étudiants inscris';
+jobs_wrapper.getElementsByTagName('h3')[0].textContent = jobs.length + ' étudiants dans la ville';
+locations_wrapper.getElementsByTagName('h3')[0].textContent = places.length + ' lieux à visiter dans la ville';
+
+// Afficher les étudiants
+
+// showElements(students, 'rome-students-wrapper', 'col', 'col-4', 'city-card');
+
+// Afficher les jobs
+
+// showElements(jobs, 'rome-jobs-wrapper', 'col', 'col-4', 'city-card');
+
+// Afficher quoi visiter ce weekend
+
+// showElements(places, 'rome-locations-wrapper', 'col', 'col-4', 'city-card');
