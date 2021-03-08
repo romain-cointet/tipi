@@ -4,14 +4,103 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/london.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/city.css">
+  <link rel="stylesheet" href="css/london.css">
 </head>
 
 <body class="london">
+  <nav id="navbar" class="grid-row">
+    <div class="item">
+      <a href="index.html"><img src="img/logo.svg" alt="Tipi - Accueil"></a>
+    </div>
+    <div class="item">
+      <ul>
+        <li><a href="#">connexion</a></li>
+        <li><a href="#">inscription</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="herolondon">
+
+    <div class="grid">
+      <div class="grid-row">
+        <div class="item">
+          <h1>London</h1>
+          <h2>8000 étudiants, 86 jobs</h2>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="grid" id="etudiants">
+    <h3>8000 étudiants inscris</h3>
+    <div class="row">
+      <div class="col col-3">
+        <div class="user">
+          <span class="avatar">
+            <img src="https://source.unsplash.com/random/32x32" alt="">
+          </span>
+          <h3 class="user-name">
+            James Franco
+          </h3>
+        </div>
+      </div>
+      <div class="col col-3">
+        <div class="user">
+          <span class="avatar">
+            <img src="https://source.unsplash.com/random/32x32" alt="">
+          </span>
+          <h3 class="user-name">
+            Jonny Depp
+          </h3>
+        </div>
+      </div>
+      <div class="col col-3">
+        <div class="user">
+          <span class="avatar">
+            <img src="https://source.unsplash.com/random/32x32" alt="">
+          </span>
+          <h3 class="user-name">
+            Emma Watson
+          </h3>
+        </div>
+      </div>
+      <div class="col col-3">
+        <div class="user">
+          <span class="avatar">
+            <img src="https://source.unsplash.com/random/32x32" alt="">
+          </span>
+          <h3 class="user-name">
+            Jennifer Lawrence
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid" id="jobs-étudiants">
+      <h3>86 jobs étudiants dans la ville</h3>
+      <div class="row">
+        <div class="col col-4">
+          <div class="jobs">
+            <h3 class="jobs-name">
+              Livreur de pizzas à vélo
+            </h3>
+            <h3 class="enterprise">
+              Pizza Gucci
+            </h3>
+          </div>
+
+        </div>
+      </div>
 
 
-  <script type="text/javascript" src="js/cities/london.js"></script>
+
+
+      <script type="text/javascript" src="js/cities/london.js"></script>
 </body>
 
 </html>

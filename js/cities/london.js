@@ -74,7 +74,7 @@ let jobs = [
   {
     name: 'Rabatteurs de bars',
     enterprise: 'Le Trader',
-    salary: '20€/h'
+    salary: '10€/h'
   },
   {
     name: 'Traducteur de français',
@@ -84,22 +84,22 @@ let jobs = [
   {
     name: 'Promeneur de chiens',
     enterprise: 'Canirun',
-    salary: '20€/h'
+    salary: '15€/h'
   },
   {
     name: 'Babysitter',
     enterprise: 'Particulier',
-    salary: '20€/h'
+    salary: '10€/h'
   },
   {
     name: 'Serveur de bar',
     enterprise: 'Le Trader',
-    salary: '20€/h'
+    salary: '10€/h'
   },
   {
     name: 'Serveur restaurant',
     enterprise: 'La Gouaille',
-    salary: '20€/h'
+    salary: '10€/h'
   },
   {
     name: 'Cours particuliers math collège',
