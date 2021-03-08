@@ -165,3 +165,46 @@ let places = [
     price: '8€'
   },
 ]
+
+
+let heroNumbers = document.getElementById('hero-numbers');
+heroNumbers.innerHTML += students.length + ' étudiants, ' + jobs.length + ' jobs' ;
+
+let registeredStudents = document.getElementById('registered-students');
+registeredStudents.innerHTML = students.length + " étudiants inscrits";
+
+  let studentWrapperId = document.getElementById('students-wrapper');
+
+  for (let i = 0; i < students.length; i++) {
+    let item = document.createElement('div');
+    item.classList.add('col', 'col-3');
+
+    content = '<div class="user">';
+    content += '<span class="avatar"> <img src=" '+ students[i].avatar + '" alt="' + students[i].name + '"> </span>';
+    content += '<h3 class="user-name">' + students[i].name + '</h3>';
+    content += '</div>';
+  ;
+
+    item.innerHTML = content;
+    studentWrapperId.appendChild(item);
+  }
+
+  let registeredStudentJobs = document.getElementById('registered-student-jobs');
+  registeredStudentJobs.innerHTML = jobs.length + " jobs étudiants dans la ville ";
+
+
+  let studentJobsWrapperId = document.getElementById('student-jobs-wrapper');
+
+  for (let i = 0; i < jobs.length; i++) {
+    let item = document.createElement('div');
+    item.classList.add('col', 'col-4');
+
+    content = '<div class="card card-secondary card-berlin">';
+    content += '<div class="jobs-title">'+ jobs[i].name + '</div>';
+    content += '<div><h5 class="job-enterprise">' + jobs[i].enterprise + ' <span class="job-salary">' +jobs[i].salary + '</span></h5> </div>';
+    content += '</div>';
+  ;
+
+    item.innerHTML = content;
+    studentJobsWrapperId.appendChild(item);
+  }

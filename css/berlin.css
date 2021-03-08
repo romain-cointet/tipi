@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+
+.hero-berlin {
+background: url(../img/berlin/hero.jpg) no-repeat center right 10%;
+background-size: cover;
+min-height: 90vh;
+padding-top: 115px;
+}
+
+.hero-berlin .grid-row h1  {
+  padding-top:20%;
+  color : #fff;
+}
+
+/*
+.hero-gradient {
+background: linear-gradient(180deg, rgba(12,27,51,0) 0%, #0C1B33 100%);
+}
+*/
+
+#hero-numbers  {
+  height: 26px;
+  width: 239px;
+  color: #FEFEFE;
+  font-family: Raleway;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+#registered-students {
+  color: #0C1B33;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.user-name {
+  height: 19px;
+ width: 120px;
+ color: #0C1B33;
+ font-family: Raleway;
+ font-size: 16px;
+ font-weight: bold;
+ letter-spacing: 0;
+ line-height: 19px;
+}
+
+.jobs-title {
+height: 20px;
+width: 189px;
+color: #0C1B33;
+font-family: Raleway;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 0;
+line-height: 20px;
+margin-bottom:16px;
+}
+
+.card-berlin {
+  width: 100%;
+}
+#job-enterprise {
+  height: 19px;
+color: #FF4D3E;
+font-family: Raleway;
+font-size: 16px;
+letter-spacing: 0;
+line-height: 19px;
+}
+
+.job-salary {
+color: #0C1B33;
+font-family: Raleway;
+font-size: 16px;
+letter-spacing: 0;
+line-height: 19px;
+}
