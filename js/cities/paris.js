@@ -63,7 +63,7 @@ let students = [
     name: 'Tamaki Ryushi',
     avatar: 'https://source.unsplash.com/random/32x32'
   },
-];
+]; 
 
 let jobs = [
   {
