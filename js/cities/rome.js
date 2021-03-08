@@ -1,5 +1,4 @@
-let students = [
-  {
+let students = [{
     name: 'Alex Edwards',
     avatar: 'https://source.unsplash.com/random/32x32'
   },
@@ -65,8 +64,7 @@ let students = [
   },
 ];
 
-let jobs = [
-  {
+let jobs = [{
     name: 'Livreur de pizzas à vélo',
     enterprise: 'Pizza Gucci',
     salary: '20€/h'
@@ -123,8 +121,7 @@ let jobs = [
   },
 ]
 
-let places = [
-  {
+let places = [{
     name: 'Colisée de Rome',
     place: 'Lieu 1',
     price: '0€'
@@ -165,3 +162,5 @@ let places = [
     price: '8€'
   },
 ]
+
+console.log("It's OK !");
