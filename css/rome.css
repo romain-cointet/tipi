@@ -58,7 +58,7 @@ header {
 }
 
 /* Locations */
-.landscape {
+.card-img-top img {
   height: 130px;
-  border-radius: 24px;
+  border-radius: 24px !important;
 }
