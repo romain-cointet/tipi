@@ -164,3 +164,5 @@ let places = [{
 ]
 
 console.log("It's OK !");
+
+console.log(students.length);
