@@ -2,6 +2,14 @@
   margin: 1.5rem 0;
 }
 
+.my-4 {
+  margin: 4rem 0;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
 header {
   background: #fff3df url(../img/cities/rome-header.jpg) no-repeat center;
   background-size: cover;
@@ -9,6 +17,11 @@ header {
   padding-top: 30vh;
 }
 
+.d-flex {
+  display: flex;
+}
+
+/* Cities */
 .city-name {
   height: 55px;
   width: 144px;
@@ -18,4 +31,34 @@ header {
   font-weight: 900;
   letter-spacing: 0;
   line-height: 55px;
+}
+
+/* Jobs */
+.job-entitled {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0C1B33;
+}
+
+.job-society {
+  color: #FF4D3E;
+  font-family: Raleway;
+  font-size: 16px;
+}
+
+.job-salary {
+  color: #0C1B33;
+  font-family: Raleway;
+  font-size: 16px;
+  text-align: right;
+}
+
+.job-card {
+  height: 100px;
+}
+
+/* Locations */
+.landscape {
+  height: 130px;
+  border-radius: 24px;
 }
