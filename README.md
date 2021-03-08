@@ -62,6 +62,10 @@ Vous pouvez évidement pusher votre code n'importe quand et pas seulement quand 
 6. marine venise
 7. alexandre lisbonne
 
+## Rendu
+
+Vous devez rendre le projet en pushant votre code dans votre branche github avant lundi 15 mars 13h.
+
 ### Force et honneur
 
 ![May the Froce be with you](https://media4.giphy.com/media/zhPWlqR2CUQ6s/giphy.gif?cid=ecf05e477gvt6i9bf1wgkga3h94ehnkypp7f8h2a0fu0bfpe&rid=giphy.gif)
