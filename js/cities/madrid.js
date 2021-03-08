@@ -165,3 +165,55 @@ let places = [
     price: '8€'
   },
 ]
+
+// On récupère l'élément html qui contiendra les stats
+let statsWrapper = document.getElementById('statsville');
+
+// On déclare les variables des stats
+let statsville = {
+  jobs: 0,
+  students: 0,
+  places: 0
+}
+// Nb jobs total
+statsville.jobs = jobs.length;
+
+// Nb étudiants total
+statsville.students = students.length;
+
+// Nb endroits total
+statsville.places = places.length;
+
+// On met le h1 avec le nom de la ville
+let div1 = document.createElement('div');
+div1.innerHTML = '<h1>Madrid</h1>'
+statsWrapper.appendChild(div1)
+
+// Ajout du h2 avec total étudiants & jobs
+let div2 = document.createElement('div');
+div2.innerHTML = '<h2>' + statsville.students + ' étudiants, ' + statsville.jobs + ' jobs</h2>'
+statsWrapper.appendChild(div2)
+
+// On récupère l'élément html qui contiendra le total inscrits
+let statsInscrits = document.getElementById('totalinscrits');
+
+// On cible le h3 et on y met le contenu total inscrits
+let div3 = document.createElement('h3');
+div3.innerHTML = '' + statsville.students + ' étudiants inscrits'
+statsInscrits.appendChild(div3)
+
+// On récupère l'élément html qui contiendra le total jobs étudiants
+let statsJobs = document.getElementById('totaljobs');
+
+// On cible le h3 et on y met le contenu total inscrits
+let div4 = document.createElement('h3');
+div4.innerHTML = '' + statsville.jobs + ' jobs étudiants dans la ville'
+statsJobs.appendChild(div4)
+
+// On récupère l'élément html qui contiendra le total jobs étudiants
+let statsPlaces = document.getElementById('totalplaces');
+
+// On cible le h3 et on y met le contenu total inscrits
+let div5 = document.createElement('h3');
+div5.innerHTML = '' + statsville.places + ' lieux à visiter dans la ville'
+statsPlaces.appendChild(div5)
