@@ -182,7 +182,7 @@ locations_wrapper.getElementsByTagName('h3')[0].textContent = places.length + ' 
 
 // Afficher les étudiants
 
-// showElements(students, 'rome-students-wrapper', 'col', 'col-4', 'city-card');
+showElements(students, 'rome_students_wrapper', 'col-3', 'test');
 
 // Afficher les jobs
 
