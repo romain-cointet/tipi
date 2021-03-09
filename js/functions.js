@@ -102,35 +102,32 @@ function showElements(obj, id, divClass1, divClass2) {
     console.log(obj[element].name);
     switch (1) {
 
+      // WIP
       case 1:
+        var content = '<div class="user mb-1">';
+        content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
+        content += '<h3 class="user-name">' + obj[element].name + '</h3>';
+        content += '</div>';
+        break;
+
+        // WIP
+      case 2:
+        var content = '<div class="card-body">';
+        content += '<p class="job-entitled mb-1">' + obj[element].name + '</p>';
+        content += '<div class="d-flex">';
+        content += '<p class="job-society col col-6 p-0">' + obj[element].entreprise + '</p>';
+        content += '<p class="job-society col col-6">' + obj[element].salary + '</p>';
+        content += '</div>';
+        content += '</div>';
+        break;
+
+        // WIP
+      case 3:
         var content = '<div class="user mb-1">';
         content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
         content += '<h3 class="user-name">' + obj[element].name; + '</h3>';
         content += '</div>';
         break;
-
-        // case rome_jobs_wrapper:
-        //   if (obj[element].rating == 1) {
-        //     var topOfTheWeek = '<div class="top"> Top of <br> the week! </div>';
-        //   } else {
-        //     var topOfTheWeek = '';
-        //   }
-        //   var content = '<a href="#" class="item plat">';
-        //   content += topOfTheWeek;
-        //   content += '<div class="picture"><img src="img/' + obj[element].image + '" alt="' + obj[element].name + '"></div>';
-        //   content += '<h5>' + obj[element].name + '</h5>';
-        //   content += '</a>';
-        //   break;
-        //
-        // case rome_locations_wrapper:
-        //   for (var i = 0; i < user.visits.length; i++) {
-        //     col.classList.add('visit');
-        //     if (user.visits[i] == obj[element]) {
-        //       col.classList.add('visit-selected');
-        //     }
-        //   }
-        //   var content = '<h4>' + obj[element] + '</h4>';
-        //   break;
 
       default:
         var content = '<p>Aucun objet trouvé</p>';
