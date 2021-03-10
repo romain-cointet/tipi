@@ -67,57 +67,57 @@ let students = [{
 let jobs = [{
     name: 'Livreur de pizzas à vélo',
     enterprise: 'Pizza Gucci',
-    salary: '20€/h'
+    salary: '16€/h'
   },
   {
     name: 'Rabatteurs de bars',
     enterprise: 'Le Trader',
-    salary: '20€/h'
+    salary: '12€/h'
   },
   {
     name: 'Traducteur de français',
     enterprise: 'Linguo',
-    salary: '20€/h'
+    salary: '12€/h'
   },
   {
     name: 'Promeneur de chiens',
     enterprise: 'Canirun',
-    salary: '20€/h'
+    salary: '8€/h'
   },
   {
     name: 'Babysitter',
     enterprise: 'Particulier',
-    salary: '20€/h'
+    salary: '13€/h'
   },
   {
     name: 'Serveur de bar',
     enterprise: 'Le Trader',
-    salary: '20€/h'
+    salary: '23€/h'
   },
   {
     name: 'Serveur restaurant',
     enterprise: 'La Gouaille',
-    salary: '20€/h'
+    salary: '25€/h'
   },
   {
     name: 'Cours particuliers math collège',
     enterprise: 'Schoolmouv',
-    salary: '20€/h'
+    salary: '14€/h'
   },
   {
     name: 'Cours particuliers français collège',
     enterprise: 'Schoolmouv',
-    salary: '20€/h'
+    salary: '17€/h'
   },
   {
     name: 'Cours particuliers anglais collège',
     enterprise: 'Schoolmouv',
-    salary: '20€/h'
+    salary: '23€/h'
   },
   {
     name: 'Cours particuliers SVT collège',
     enterprise: 'Schoolmouv',
-    salary: '20€/h'
+    salary: '15€/h'
   },
 ]
 
@@ -182,11 +182,11 @@ locations_wrapper.getElementsByTagName('h3')[0].textContent = places.length + ' 
 
 // Afficher les étudiants
 
-showElements(students, 'rome_students_wrapper', 'col-3', 'test');
+showElements(students, 'romeStudentsWrapper', 3, null, null, null);
 
 // Afficher les jobs
 
-// showElements(jobs, 'rome-jobs-wrapper', 'col', 'col-4', 'city-card');
+showElements(jobs, 'romeJobsWrapper', 3, 'card', 'card-secondary', 'city-card');
 
 // Afficher quoi visiter ce weekend
 

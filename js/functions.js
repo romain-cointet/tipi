@@ -1,4 +1,3 @@
-/*
 function showJobs(jobs) {
   let jobWrapper = document.getElementById('jobs-wrapper');
 
@@ -25,7 +24,7 @@ function showEatings(eatings) {
 
     let platContent = '<a href="#" class="item plat">';
 
-    if(i === 0) {
+    if (i === 0) {
       platContent += '<div class="top">Top of <br>the week!</div>';
     }
 
@@ -37,9 +36,6 @@ function showEatings(eatings) {
     eatingWrapper.appendChild(plat);
   }
 }
-*/
-
-
 
 // La fonction showItems affichera en HTML les différents éléments du tableau
 // Elle a besoin de trois paramètres:
@@ -93,17 +89,17 @@ function showVisits(visits, visited) {
 }
 
 
-function showElements(obj, id, divClass1, divClass2) {
+function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
   let wrapper = document.getElementById(id);
   console.log(obj);
   for (const element in obj) {
     var col = document.createElement('div');
-    col.classList.add('col', divClass1, divClass2);
+    col.classList.add('col', 'col-' + colNum, divClass1, divClass2, divClass3);
     console.log(obj[element].name);
-    switch (1) {
+    switch (obj) {
 
       // WIP
-      case 1:
+      case students:
         var content = '<div class="user mb-1">';
         content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
         content += '<h3 class="user-name">' + obj[element].name + '</h3>';
@@ -111,23 +107,23 @@ function showElements(obj, id, divClass1, divClass2) {
         break;
 
         // WIP
-      case 2:
+      case jobs:
         var content = '<div class="card-body">';
         content += '<p class="job-entitled mb-1">' + obj[element].name + '</p>';
         content += '<div class="d-flex">';
-        content += '<p class="job-society col col-6 p-0">' + obj[element].entreprise + '</p>';
+        content += '<p class="job-society col col-6 p-0">' + obj[element].enterprise + '</p>';
         content += '<p class="job-society col col-6">' + obj[element].salary + '</p>';
         content += '</div>';
         content += '</div>';
         break;
 
         // WIP
-      case 3:
-        var content = '<div class="user mb-1">';
-        content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
-        content += '<h3 class="user-name">' + obj[element].name; + '</h3>';
-        content += '</div>';
-        break;
+        // case 3:
+        //   var content = '<div class="user mb-1">';
+        //   content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
+        //   content += '<h3 class="user-name">' + obj[element].name; + '</h3>';
+        //   content += '</div>';
+        //   break;
 
       default:
         var content = '<p>Aucun objet trouvé</p>';
