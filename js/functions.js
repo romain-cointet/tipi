@@ -98,7 +98,7 @@ function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
     console.log(obj[element].name);
     switch (obj) {
 
-      // WIP
+      // OK
       case students:
         var content = '<div class="user mb-1">';
         content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
@@ -106,7 +106,7 @@ function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
         content += '</div>';
         break;
 
-        // WIP
+        // WIP -col
       case jobs:
         var content = '<div class="card-body">';
         content += '<p class="job-entitled mb-1">' + obj[element].name + '</p>';
@@ -118,12 +118,12 @@ function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
         break;
 
         // WIP
-        // case 3:
-        //   var content = '<div class="user mb-1">';
-        //   content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
-        //   content += '<h3 class="user-name">' + obj[element].name; + '</h3>';
-        //   content += '</div>';
-        //   break;
+      case places:
+        var content = '<div class="user mb-1">';
+        content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
+        content += '<h3 class="user-name">' + obj[element].name; + '</h3>';
+        content += '</div>';
+        break;
 
       default:
         var content = '<p>Aucun objet trouvé</p>';

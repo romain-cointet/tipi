@@ -190,4 +190,4 @@ showElements(jobs, 'romeJobsWrapper', 3, 'card', 'card-secondary', 'city-card');
 
 // Afficher quoi visiter ce weekend
 
-// showElements(places, 'rome-locations-wrapper', 'col', 'col-4', 'city-card');
+showElements(places, 'romeLocationsWrapper', 4, 'city-card', null, null);
