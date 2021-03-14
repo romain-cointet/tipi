@@ -207,10 +207,10 @@ button,
 
 /* Structure */
 #navbar {
-  position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
+  position: fixed;
 }
 
 #navbar .item:last-child {
@@ -368,7 +368,7 @@ button,
 }
 
 .list {
-  margin-top: 64px;
+  margin-top: 32px;
 }
 
 .list .row {

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Réglages sur la nav  */
+.nav-colored {
+  background-color: #FFF;
+  -webkit-transition: background-color 700ms linear;
+  transition: background-color 700ms linear;
+  -webkit-box-shadow: 0px 0px 0.8px #222222;
+          box-shadow: 0px 0px 0.8px #222222;
+}
+
+.nav-transparent {
+  background-color: transparent;
+}
+
+/* Réglages hero */
+.hero-berlin {
+  background: url(../img/berlin/hero.jpg);
+  background-size: cover;
+  min-height: 80vh;
+  padding-top: 115px;
+}
+
+.grid-row h1 {
+  padding-top: 20%;
+  color: #FFF;
+}
+
+#hero-numbers {
+  height: 26px;
+  width: 239px;
+  color: #FEFEFE;
+  font-family: Raleway;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+/* Réglages - Section étudiants inscrits */
+#registered-students {
+  color: #0C1B33;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.user-name {
+  height: 19px;
+  width: 120px;
+  color: #0C1B33;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+/* Réglages jobs étudiants  */
+.jobs-title {
+  width: 100%;
+  color: #0C1B33;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.card-berlin {
+  width: 100%;
+}
+
+#places-titles {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#job-offer, #place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 25px;
+}
+
+#job-enterprise, #location {
+  height: 19px;
+  color: #FF4D3E;
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.job-salary, #place-fee {
+  color: #0C1B33;
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+/* Réglages des lieux */
+.col-places {
+  margin-bottom: 24px;
+}
+
+.col-places:hover {
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+
+.places-img img {
+  height: 132px;
+  border-radius: 24px;
+}
+
+#places-titles {
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
