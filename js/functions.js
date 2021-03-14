@@ -119,9 +119,15 @@ function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
 
         // WIP
       case places:
-        var content = '<div class="user mb-1">';
-        content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
-        content += '<h3 class="user-name">' + obj[element].name; + '</h3>';
+        var content = '<div class="card-img-top mb-1">';
+        content += '...';
+        content += '</div>';
+        content += '<div class="card-body">';
+        content += '<p class="job-entitled mb-1">' + obj[element].name + '</p>';
+        content += '<div class="d-flex">';
+        content += '<p class="job-society col col-6 p-0">' + obj[element].place + '</p>';
+        content += '<p class="job-salary col col-6">' + obj[element].price + '</p>';
+        content += '</div>';
         content += '</div>';
         break;
 
