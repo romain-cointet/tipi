@@ -65,9 +65,10 @@ let students = [
   },
 ];
 
+
 let totalStudents = document.getElementById('total-students');
 totalStudents.innerHTML = students.length + " étudiants inscrits";
-
+/*
 let studentsList = document.getElementById('students-list');
 
 for (let i = 0; i < students.length; i++) {
@@ -86,6 +87,7 @@ for (let i = 0; i < students.length; i++) {
     studentsList.appendChild(item)
   }
 }
+*/
 
 let jobs = [
   {
@@ -148,6 +150,7 @@ let jobs = [
 let totalJobs = document.getElementById('total-jobs');
 totalJobs.innerHTML = jobs.length + ' jobs étudiants dans la ville';
 
+/*
 let jobsList = document.getElementById('jobs-list');
 
 for (let i = 0; i < jobs.length; i++) {
@@ -169,6 +172,7 @@ for (let i = 0; i < jobs.length; i++) {
     jobsList.appendChild(item);
   }
 }
+*/
 
 let places = [
   {
@@ -215,7 +219,7 @@ let places = [
 
 let totalPlaces = document.getElementById('total-places');
 totalPlaces.innerHTML = places.length + ' lieux à visiter dans la ville';
-
+/*
 let placesList = document.getElementById('places-list');
 
 for (let i = 0; i < places.length; i++) {
@@ -244,3 +248,86 @@ for (let i = 0; i < places.length; i++) {
 
   placesList.appendChild(item);
 }
+*/
+
+
+function showItems (tableau, id, limit) {
+
+  limit = limit -1;
+
+  let wrapperId = document.getElementById(id);
+
+  console.log(id)
+
+  for (let i = 0; i < tableau.length; i++) {
+
+    if(id == 'students-list') {
+      if(i < limit) {
+        let item = document.createElement('div');
+        item.classList.add('col', 'col-3');
+
+        let content = '<div class="user">';
+        content += '<span class="avatar"><img src="' + tableau[i].avatar + '"/></span>';
+        content += '<h3 class="user-name">' + tableau[i].name + '</h3>';
+        content += '</div>';
+
+        item.innerHTML = content;
+
+        wrapperId.appendChild(item)
+      }
+    } else if (id == 'jobs-list') {
+
+      if(i <= limit) {
+        let item = document.createElement('div');
+        item.classList.add('col', 'col-4');
+
+        let content = '<div class="job">'
+        content += '<div class="row">';
+        content += '<div class="col col-12">';
+        content += '<h4>' + tableau[i].name + '</h4>';
+        content += '</div>';
+        content += '<div class="col col-6">' + tableau[i].enterprise + '</div>';
+        content += '<div class="col col-6">' + tableau[i].salary + '</div>';
+        content += '</div></div></div>';
+
+        item.innerHTML = content;
+
+        wrapperId.appendChild(item);
+      }
+    } else {
+      if (i <= limit) {
+        let item = document.createElement('div');
+        item.classList.add('col', 'col-4');
+
+        let content = '<div class="place">';
+        content += '<div class="row">';
+        content += '<div class="col col-12">';
+        content += '<img src="https://source.unsplash.com/random/400x130" />';
+        content += '</div>';
+        content += '<div class="col col-12">';
+        content += '<h4>'+ tableau[i].name +'</h4>';
+        content += '</div>';
+        content += '<div class="col col-6">';
+        content += tableau[i].place;
+        content += '</div>';
+        content += '<div class="col col-6">';
+        content += tableau[i].price;
+        content += '</div>';
+        content += '</div>';
+        content += '</div>';
+        content += '</div>';
+
+        item.innerHTML = content;
+
+        wrapperId.appendChild(item);
+      }
+
+    }
+
+
+  }
+}
+
+showItems(students, 'students-list', 12)
+showItems(jobs, 'jobs-list', 9)
+showItems(places, 'places-list', 6)
