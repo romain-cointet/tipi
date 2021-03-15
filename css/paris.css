@@ -1,0 +1,31 @@
+.paris .hero {
+  background: none;
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(2,0,36,0) 62%), url(../img/cities/paris.png) no-repeat top -300px left;
+  background-size: cover;
+  min-height: 45vh;
+}
+
+.paris .hero h1,
+.paris .hero h2 {
+  color: white;
+}
+
+.paris .hero h1 {
+  margin-bottom: 24px;
+}
+
+.paris #students {
+  margin-top: 64px;
+}
+
+.paris #students .row:first-child {
+  justify-content: space-between;
+}
+
+.paris #students .row:first-child .col:last-child {
+  text-align: right;
+}
+
+.paris #students .row:last-child .col {
+  margin-top: 16px;
+}

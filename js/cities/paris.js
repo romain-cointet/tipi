@@ -65,6 +65,30 @@ let students = [
   },
 ];
 
+let totalStudents = document.getElementById('total-students');
+totalStudents.innerHTML = students.length + " étudiants inscrits";
+
+let studentsList = document.getElementById('students-list');
+
+for (let i = 0; i < students.length; i++) {
+
+  if (i < 12) {
+    let item = document.createElement('div');
+    item.classList.add('col', 'col-3');
+
+    let content = '<div class="user">';
+    content += '<span class="avatar"><img src="' + students[i].avatar + '"/></span>';
+    content += '<h3 class="user-name">' + students[i].name + '</h3>';
+    content += '</div>';
+
+    item.innerHTML = content;
+
+    studentsList.appendChild(item)
+  }
+
+
+}
+
 let jobs = [
   {
     name: 'Livreur de pizzas à vélo',
