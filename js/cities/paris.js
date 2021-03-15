@@ -85,8 +85,6 @@ for (let i = 0; i < students.length; i++) {
 
     studentsList.appendChild(item)
   }
-
-
 }
 
 let jobs = [
@@ -147,6 +145,31 @@ let jobs = [
   },
 ]
 
+let totalJobs = document.getElementById('total-jobs');
+totalJobs.innerHTML = jobs.length + ' jobs étudiants dans la ville';
+
+let jobsList = document.getElementById('jobs-list');
+
+for (let i = 0; i < jobs.length; i++) {
+  if(i < 8) {
+    let item = document.createElement('div');
+    item.classList.add('col', 'col-4');
+
+    let content = '<div class="job">'
+    content += '<div class="row">';
+    content += '<div class="col col-12">';
+    content += '<h4>' + jobs[i].name + '</h4>';
+    content += '</div>';
+    content += '<div class="col col-6">' + jobs[i].enterprise + '</div>';
+    content += '<div class="col col-6">' + jobs[i].salary + '</div>';
+    content += '</div></div></div>';
+
+    item.innerHTML = content;
+
+    jobsList.appendChild(item);
+  }
+}
+
 let places = [
   {
     name: 'Le Louvre',
@@ -189,3 +212,35 @@ let places = [
     price: '8€'
   },
 ]
+
+let totalPlaces = document.getElementById('total-places');
+totalPlaces.innerHTML = places.length + ' lieux à visiter dans la ville';
+
+let placesList = document.getElementById('places-list');
+
+for (let i = 0; i < places.length; i++) {
+  let item = document.createElement('div');
+  item.classList.add('col', 'col-4');
+
+  let content = '<div class="place">';
+  content += '<div class="row">';
+  content += '<div class="col col-12">';
+  content += '<img src="https://source.unsplash.com/random/400x130" />';
+  content += '</div>';
+  content += '<div class="col col-12">';
+  content += '<h4>'+ places[i].name +'</h4>';
+  content += '</div>';
+  content += '<div class="col col-6">';
+  content += places[i].place;
+  content += '</div>';
+  content += '<div class="col col-6">';
+  content += places[i].price;
+  content += '</div>';
+  content += '</div>';
+  content += '</div>';
+  content += '</div>';
+
+  item.innerHTML = content;
+
+  placesList.appendChild(item);
+}

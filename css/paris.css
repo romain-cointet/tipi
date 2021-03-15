@@ -18,14 +18,24 @@
   margin-top: 64px;
 }
 
-.paris #students .row:first-child {
+.paris section .row:first-child {
   justify-content: space-between;
 }
 
-.paris #students .row:first-child .col:last-child {
+.paris section .row:first-child .col:last-child {
   text-align: right;
 }
 
-.paris #students .row:last-child .col {
+.paris section .row:last-child .col {
   margin-top: 16px;
+}
+
+
+.paris .job {
+  border: 1px solid #eee;
+  border-radius: 23px;
+  padding: 16px;
+}
+.paris .job .col {
+  margin-top: 0 !important;
 }
