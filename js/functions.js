@@ -95,6 +95,7 @@ function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
   for (const element in obj) {
     var col = document.createElement('div');
     col.classList.add('col', 'col-' + colNum, divClass1, divClass2, divClass3);
+    col.classList.remove("null");
     console.log(obj[element].name);
     switch (obj) {
 
