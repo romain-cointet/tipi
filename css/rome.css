@@ -25,12 +25,10 @@ header {
   display: flex;
 }
 
-.city-card {
-  height: 100px;
-  margin-bottom: 1.5rem;
-}
 
 /* Cities */
+
+
 .city-name {
   height: 55px;
   width: 144px;
@@ -62,8 +60,17 @@ header {
   text-align: right;
 }
 
+.job-card {
+  max-height: 120px;
+  margin-bottom: 1.5rem;
+}
+
 /* Locations */
 .card-img-top img {
   height: 130px;
   border-radius: 24px !important;
+}
+
+.locations-card {
+  margin-bottom: 1.5rem;
 }

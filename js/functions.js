@@ -102,7 +102,7 @@ function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
       // OK
       case students:
         var content = '<div class="user mb-1">';
-        content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt=""></span>';
+        content += '<span class="avatar"><img src="' + obj[element].avatar + '" alt="image du profil"></span>';
         content += '<h3 class="user-name">' + obj[element].name + '</h3>';
         content += '</div>';
         break;
@@ -121,8 +121,7 @@ function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
         // An error occurs when generating random images from unsplash
       case places:
         var content = '<div class="card-img-top mb-1">';
-        // content += '<img src="https://source.unsplash.com/random/400x130" alt="">';
-        content += 'WIP';
+        content += '<img src="https://source.unsplash.com/random/400x130" alt="">';
         content += '</div>';
         content += '<div class="card-body">';
         content += '<p class="job-entitled mb-1">' + obj[element].name + '</p>';

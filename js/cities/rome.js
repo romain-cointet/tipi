@@ -186,8 +186,8 @@ showElements(students, 'romeStudentsWrapper', 3, null, null, null);
 
 // Afficher les jobs
 
-showElements(jobs, 'romeJobsWrapper', 3, 'card', 'card-secondary', 'city-card');
+showElements(jobs, 'romeJobsWrapper', 3, 'card', 'card-secondary', 'job-card');
 
 // Afficher quoi visiter ce weekend
 
-showElements(places, 'romeLocationsWrapper', 4, 'city-card', null, null);
+showElements(places, 'romeLocationsWrapper', 4, 'locations-card', null, null);
