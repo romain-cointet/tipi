@@ -1,12 +1,21 @@
-.herolondon {
-  background: url(img/bridge.jpg) no-repeat center right 10%;
-  background-size: 40%;
-  min-height: 90vh;
-  padding-top: 115px;
+.hero-london {
+  background: #fff3df url(../img/bridge.png) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+  padding-top: 30vh;
 }
 
-#etudiants {
-  height: 194px;
-  width: 1256px;
-  margin:  62px 92.5px;
+#hero-title {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+#hero-numbers {
+  color: #FFFFFF;
+}
+
+
+.card-img img {
+  height: 130px;
+  border-radius: 24px !important;
 }
