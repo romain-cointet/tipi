@@ -166,8 +166,19 @@ let places = [
   },
 ]
 
-let heroNumbers = document.getElementById('hero-numbers');
-heroNumbers.innerHTML +=students.length + " étudiants, " + jobs.length + " jobs";
 
-let registeredStudents = document.getElementById('registered-students');
+let heroNumbers = document.getElementById('hero-numbers');
+heroNumbers.innerHTML += students.length + " étudiants, " + jobs.length + " jobs";
+
+// Variable pour afficher le nombre d'étudiants
+let registeredStudents= document.getElementById('registered-students');
 registeredStudents.innerHTML+=students.length + " étudiants inscrits";
+
+
+// Variable pour afficher le nombre de jobs
+let jobsLondon = document.getElementById('jobs-london');
+jobsLondon.textContent += jobs.length + " jobs étudiant dans la ville";
+
+// Variable pour afficher les lieux à visiter
+let visitLondon = document.getElementById('visit-london');
+visitLondon.textContent += places.length + " lieux à visiter dans la ville";
