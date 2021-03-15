@@ -186,6 +186,7 @@ showElements(students, 'romeStudentsWrapper', 3, null, null, null);
 
 // Afficher les jobs
 
+// Force 3 columns
 showElements(jobs, 'romeJobsWrapper', 3, 'card', 'card-secondary', 'job-card');
 
 // Afficher quoi visiter ce weekend

@@ -107,7 +107,7 @@ function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
         content += '</div>';
         break;
 
-        // WIP -col
+        // WIP -col not width:100%
       case jobs:
         var content = '<div class="card-body">';
         content += '<p class="job-entitled mb-1">' + obj[element].name + '</p>';
@@ -118,7 +118,7 @@ function showElements(obj, id, colNum, divClass1, divClass2, divClass3) {
         content += '</div>';
         break;
 
-        // An error occurs when generating random images from unsplash
+        // OK
       case places:
         var content = '<div class="card-img-top mb-1">';
         content += '<img src="https://source.unsplash.com/random/400x130" alt="">';
