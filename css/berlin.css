@@ -1,34 +1,31 @@
-
-
 /* Réglages sur la nav  */
-.nav-colored { background-color : rgba(255,255,255);
-    transition: background-color 700ms linear;
-    box-shadow: 0px 0px 0.8px #222222;    
-
+.nav-colored {
+  background-color: rgba(255, 255, 255);
+  transition: background-color 700ms linear;
+  box-shadow: 0px 0px 0.8px #222222;
 }
-.nav-transparent { 
-  background-color:transparent;
+.nav-transparent {
+  background-color: transparent;
 }
 
 /* Réglages hero */
 
 .hero-berlin {
-background: url(../img/berlin/hero.jpg) no-repeat center right 10%;
-background-size: cover;
-min-height: 80vh;
-padding-top: 115px;
+  background: url(../img/berlin/hero.jpg) no-repeat center right 10%;
+  background-size: cover;
+  min-height: 80vh;
+  padding-top: 115px;
 }
 
-.hero-berlin .grid-row h1  {
-  padding-top:20%;
-  color : #fff;
+.hero-berlin .grid-row h1 {
+  padding-top: 20%;
+  color: #fff;
 }
 
-
-#hero-numbers  {
+#hero-numbers {
   height: 26px;
   width: 239px;
-  color: #FEFEFE;
+  color: #fefefe;
   font-family: Raleway;
   font-size: 22px;
   letter-spacing: 0;
@@ -38,7 +35,7 @@ padding-top: 115px;
 /* Réglages - Section étudiants inscrits */
 
 #registered-students {
-  color: #0C1B33;
+  color: #0c1b33;
   font-family: Raleway;
   font-size: 20px;
   font-weight: 600;
@@ -50,15 +47,14 @@ padding-top: 115px;
 
 .user-name {
   height: 19px;
- width: 120px;
- color: #0C1B33;
- font-family: Raleway;
- font-size: 16px;
- font-weight: bold;
- letter-spacing: 0;
- line-height: 19px;
+  width: 120px;
+  color: #0c1b33;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
 }
-
 
 /* Réglages jobs étudiants  */
 
@@ -67,14 +63,14 @@ padding-top: 115px;
   margin: 0px 12px;
 }
 .jobs-title {
-width: 100%;
-color: #0C1B33;
-font-family: Raleway;
-font-size: 16px;
-font-weight: bold;
-letter-spacing: 0;
-line-height: 20px;
-margin-bottom:16px;
+  width: 100%;
+  color: #0c1b33;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: 16px;
 }
 
 .card-berlin {
@@ -84,37 +80,39 @@ margin-bottom:16px;
 .card-berlin-2 {
   padding: 16px 32px;
   margin: 0 12px 8px 12px;
-
 }
 
-.jobs-title, #places-titles {
+.jobs-title,
+#places-titles {
   font-family: Raleway;
   font-size: 16px;
   font-weight: bold;
-  
 }
-#job-offer, #place {
+#job-offer,
+#place {
   display: flex;
   justify-content: space-between;
   height: 25px;
 }
 
-#job-enterprise, #location {
+#job-enterprise,
+#location {
   height: 19px;
-color: #FF4D3E;
-font-family: Raleway;
-font-size: 16px;
-letter-spacing: 0;
-line-height: 19px;
-font-weight: 400;
+  color: #ff4d3e;
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  font-weight: 400;
 }
 
-.job-salary, #place-fee {
-color: #0C1B33;
-font-family: Raleway;
-font-size: 16px;
-letter-spacing: 0;
-line-height: 19px;
+.job-salary,
+#place-fee {
+  color: #0c1b33;
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
 }
 
 /* Réglages des lieux */
@@ -124,10 +122,10 @@ line-height: 19px;
 }
 
 .col-places:hover {
-  transition-duration: .5s;
+  transition-duration: 0.5s;
   transition-property: transform;
   transition-timing-function: ease-out;
-  transform:translateY(-6px);
+  transform: translateY(-6px);
 }
 .places-img img {
   height: 132px;
@@ -135,13 +133,13 @@ line-height: 19px;
 }
 
 .col-places:hover {
-  transition-duration: .3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-    transform:translateY(-4px);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transform: translateY(-4px);
 }
 
-  #places-titles {
-    margin-top:20px;
-    margin-bottom: 17px;
-  }
+#places-titles {
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
