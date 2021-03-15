@@ -108,7 +108,7 @@ let jobs = [
   },
   {
     name: 'Cours particuliers français collège',
-    enterprise: 'Schoolmouv',fhtfhf
+    enterprise: 'Schoolmouv',
     salary: '20€/h'
   },
   {
@@ -169,5 +169,5 @@ let places = [
 let heroNumbers = document.getElementById('hero-numbers');
 heroNumbers.innerHTML +=students.length + " étudiants, " + jobs.length + " jobs";
 
-let registeredStudents= document.getElementById('registered-students');
+let registeredStudents = document.getElementById('registered-students');
 registeredStudents.innerHTML+=students.length + " étudiants inscrits";
